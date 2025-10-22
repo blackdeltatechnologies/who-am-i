@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="hero-image" id="home">
+      <nav class="navbar">
+        <a class="active" href="#home">Sandeep Kumar</a>
+        <div class="navbar-right">
+          <a href="#education">Education</a>
+          <a href="#skills">My Skills</a>
+          <a href="#contact">Contact</a>
+          <a href="music_library.html">Favourite Music</a>
+        </div>
+      </nav>
+      <div class="hero-text">
+        <h1>I am Sandeep Kumar</h1>
+        <p>And I'm a web Developer</p>
+        <p>
+          A passionate Full Stack Web Developer having an experience of building
+          Web applications with JavaScript / Reactjs / Nodejs / Firebase and
+          some other cool libraries and frameworks.
+        </p>
+        <button>Hire me</button>
+      </div>
+    </div>
+
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Degree/Certificate</th>
+          <th>Board/University</th>
+          <th>Year</th>
+          <th>Percent/CGPA</th>
+        </tr>
+        <tr>
+          <td>10th</td>
+          <td>CBSE</td>
+          <td>2010</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>12th</td>
+          <td>CBSE</td>
+          <td>2012</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>B.Tech</td>
+          <td>KG University</td>
+          <td>2016</td>
+          <td>9.2</td>
+        </tr>
+        <tr>
+          <td>MBA</td>
+          <td>KG University</td>
+          <td>2019</td>
+          <td>9.3</td>
+        </tr>
+        <tr>
+          <td>PG Diploma in AI</td>
+          <td>BPS</td>
+          <td>2021</td>
+          <td>90</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="images/html.png" alt="HTML" style="width: 100%" />
+            <h3>HTML</h3>
+            <ul>
+              <li>
+                Proficient in developing well-structured, accessible web pages
+                using HTML.
+              </li>
+              <li>
+                Skilled in implementing SEO-friendly semantic tags to enhance
+                web visibility and user engagement.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="images/css.png" alt="css" style="width: 100%" />
+            <h3>CSS</h3>
+            <ul>
+              <li>
+                Experienced in designing visually appealing, responsive, and
+                cross-browser compatible user interfaces.
+              </li>
+              <li>
+                Proficient in frameworks like Bootstrap and writing custom CSS
+                for dynamic styling.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img
+              src="images/javascript.png"
+              alt="Javascript"
+              style="width: 100%"
+            />
+            <h3>JavaScript</h3>
+            <ul>
+              <li>
+                Proficient in writing clean and modular JavaScript code to build
+                interactive web applications.
+              </li>
+              <li>
+                Update myself with the latest standards, innovations and trends
+                in javascript.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="images/react.png" alt="react" style="width: 100%" />
+            <h3>React</h3>
+            <ul>
+              <li>
+                Skilled in developing scalable, component-based front-end
+                applications using React.
+              </li>
+              <li>
+                Experienced in state management with Redux and building reusable
+                components.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="images/Cpp.png" alt="cpp" style="width: 100%" />
+            <h3>C++</h3>
+            <ul>
+              <li>
+                Proficient in object-oriented programming, data structures, and
+                algorithms using C++.
+              </li>
+              <li>
+                Skilled in writing efficient and optimized code for competitive
+                programming.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="images/Java.png" alt="vava" style="width: 100%" />
+            <h3>Java</h3>
+            <ul>
+              <li>
+                Experienced in building robust, scalable applications using Core
+                Java concepts like OOP.
+              </li>
+              <li>
+                Proficient in debugging and optimizing Java applications for
+                performance and reliability.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="form-container">
+        <form action="url_to_submit">
+          <label for="name">First Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your full name"
+          />
+
+          <label for="email">E Mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+          />
+
+          <label for="role">Role</label>
+          <select id="role" name="role">
+            <option value="Full Stack">Full Stack</option>
+            <option value="Front End">Front End</option>
+            <option value="Back End">Back End</option>
+          </select>
+
+          <label for="details">Details</label>
+          <textarea
+            id="details"
+            name="details"
+            placeholder="More Detail.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

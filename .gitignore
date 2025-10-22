@@ -1,0 +1,33 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Node modules (if you ever use node tools)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/
+build/
+
+# OS generated files
+ehthumbs.db
+Icon?
+
+# songs directory: keep actual media but avoid committing large local files if desired
+# Uncomment if you want to ignore local large music files
+# songs/
