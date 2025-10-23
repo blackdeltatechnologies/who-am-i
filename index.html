@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>My Portfolio</title>
   </head>
 
@@ -31,7 +36,11 @@
 
           🚀 Continuously exploring new technologies such as TypeScript, Next.js, Docker, and DevOps tools.<br />
         </p>
-        <button>Hire me</button>
+
+        <!-- Moved button here and center -->
+        <button style="margin-top: 20px; padding: 12px 30px; font-size: 20px; border-radius: 8px; cursor: pointer;">
+          Hire me
+        </button>
       </div>
     </div>
 
@@ -67,57 +76,12 @@
     <section id="skills">
       <h2>My Skills</h2>
 
+      <!-- Row 1 -->
       <div class="row">
-        <div class="column">
-          <div class="content">
-            <img src="images/html.png" alt="HTML" style="width: 100%" />
-            <h3>HTML</h3>
-            <ul>
-              <li>Proficient in developing well-structured, accessible web pages using HTML.</li>
-              <li>Skilled in implementing SEO-friendly semantic tags to enhance web visibility.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="content">
-            <img src="images/css.png" alt="CSS" style="width: 100%" />
-            <h3>CSS</h3>
-            <ul>
-              <li>Experienced in designing visually appealing, responsive, and cross-browser compatible UIs.</li>
-              <li>Proficient in frameworks like Bootstrap and writing custom CSS for unique layouts.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="content">
-            <img src="images/javascript.png" alt="JavaScript" style="width: 100%" />
-            <h3>JavaScript</h3>
-            <ul>
-              <li>Proficient in writing clean, modular code to build interactive applications.</li>
-              <li>Stay updated with modern ECMAScript features and frameworks.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="column">
-          <div class="content">
-            <img src="images/react.png" alt="React" style="width: 100%" />
-            <h3>React.js</h3>
-            <ul>
-              <li>Skilled in creating scalable, component-based front-end applications.</li>
-              <li>Experienced in state management using Redux and Context API.</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="column">
           <div class="content">
             <img src="images/python.png" alt="Python" style="width: 100%" />
-            <h3>Python</h3>
+            <h3><i class="fab fa-python" style="color:#306998; margin-right:8px;"></i>Python</h3>
             <ul>
               <li>Strong foundation in Python programming for automation, scripting, and backend systems.</li>
               <li>Experienced in using libraries like NumPy, Pandas, and Flask.</li>
@@ -128,23 +92,35 @@
         <div class="column">
           <div class="content">
             <img src="images/ai_ml.png" alt="AI and ML" style="width: 100%" />
-            <h3>Artificial Intelligence & Machine Learning</h3>
+            <h3><i class="fas fa-robot" style="color:#ff6f61; margin-right:8px;"></i>Artificial Intelligence & Machine Learning</h3>
             <ul>
               <li>Hands-on experience with AI and ML concepts using Python, TensorFlow, and Scikit-learn.</li>
               <li>Familiar with data preprocessing, model training, and predictive analytics.</li>
             </ul>
           </div>
         </div>
-      </div>
 
-      <div class="row">
         <div class="column">
           <div class="content">
             <img src="images/cybersecurity.png" alt="Cybersecurity" style="width: 100%" />
-            <h3>Cybersecurity</h3>
+            <h3><i class="fas fa-shield-alt" style="color:#4caf50; margin-right:8px;"></i>Cybersecurity</h3>
             <ul>
               <li>Knowledgeable in web application security, penetration testing, and secure coding practices.</li>
               <li>Completed Cisco Cybersecurity Essentials certification.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="images/devops.png" alt="DevOps" style="width: 100%" />
+            <h3><i class="fas fa-cogs" style="color:#f39c12; margin-right:8px;"></i>DevOps & Tools</h3>
+            <ul>
+              <li>Experience with Docker, Git, GitHub, and automation workflows.</li>
+              <li>Understanding of containerization and version control best practices.</li>
             </ul>
           </div>
         </div>
@@ -152,7 +128,7 @@
         <div class="column">
           <div class="content">
             <img src="images/cloud.png" alt="Cloud Computing" style="width: 100%" />
-            <h3>Cloud Computing</h3>
+            <h3><i class="fas fa-cloud" style="color:#00aaff; margin-right:8px;"></i>Cloud Computing</h3>
             <ul>
               <li>Proficient with AWS, Google Cloud, and Firebase for scalable deployments.</li>
               <li>Experience in CI/CD integration and cloud-based hosting.</li>
@@ -162,11 +138,47 @@
 
         <div class="column">
           <div class="content">
-            <img src="images/devops.png" alt="DevOps" style="width: 100%" />
-            <h3>DevOps & Tools</h3>
+            <img src="images/react.png" alt="React" style="width: 100%" />
+            <h3><i class="fab fa-react" style="color:#61dafb; margin-right:8px;"></i>React.js</h3>
             <ul>
-              <li>Experience with Docker, Git, GitHub, and automation workflows.</li>
-              <li>Understanding of containerization and version control best practices.</li>
+              <li>Skilled in creating scalable, component-based front-end applications.</li>
+              <li>Experienced in state management using Redux and Context API.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="images/javascript.png" alt="JavaScript" style="width: 100%" />
+            <h3><i class="fab fa-js-square" style="color:#f7df1e; margin-right:8px;"></i>JavaScript</h3>
+            <ul>
+              <li>Proficient in writing clean, modular code to build interactive applications.</li>
+              <li>Stay updated with modern ECMAScript features and frameworks.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <img src="images/css.png" alt="CSS" style="width: 100%" />
+            <h3><i class="fab fa-css3-alt" style="color:#2965f1; margin-right:8px;"></i>CSS</h3>
+            <ul>
+              <li>Experienced in designing visually appealing, responsive, and cross-browser compatible UIs.</li>
+              <li>Proficient in frameworks like Bootstrap and writing custom CSS for unique layouts.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <img src="images/html.png" alt="HTML" style="width: 100%" />
+            <h3><i class="fab fa-html5" style="color:#e44d26; margin-right:8px;"></i>HTML</h3>
+            <ul>
+              <li>Proficient in developing well-structured, accessible web pages using HTML.</li>
+              <li>Skilled in implementing SEO-friendly semantic tags to enhance web visibility.</li>
             </ul>
           </div>
         </div>
